@@ -1,0 +1,1751 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@keyframes btn {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes b {
+  0% {
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -o-transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes sg {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.p1 {
+  position: relative;
+  background: url("../images/backgroud.jpg") no-repeat;
+  width: 19.2rem;
+  height: 64.55rem;
+  background-size: 100% 100%;
+}
+
+.p1-preBtn {
+  position: absolute;
+  background: url("../images/p1-preBtn.png") no-repeat;
+  width: 3.42rem;
+  height: 0.74rem;
+  background-size: 100% 100%;
+  top: 8.7rem;
+  left: 7.85rem;
+}
+
+.p1 .phoneDiv {
+  position: absolute;
+  top: 14.46rem;
+  left: 6.8rem;
+  width: 6rem;
+  height: 0.54rem;
+  display: flex;
+  z-index: 3;
+}
+.p1 .phoneDiv .area {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 2rem;
+  border: 0;
+  background: none;
+  color: #fff;
+  outline: none;
+  font-size: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+.p1 .area-select {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  font-size: 0.16rem;
+}
+.p1 .area-options {
+  display: flex;
+  height: 2rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #1d1b33;
+  font-size: 0.2rem;
+  width: 1.4rem;
+  border-radius: 0.1rem;
+  margin-left: 0.4rem;
+}
+.p1 .phoneDiv input {
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-size: 0.22rem;
+  position: absolute;
+  left: 2rem;
+  width: 3rem;
+}
+
+.preBtn {
+  background: url("../images/order-btn.png") no-repeat;
+  width: 4.6rem;
+  height: 1.2rem;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 15.25rem;
+  left: 7.5rem;
+  cursor: pointer;
+}
+
+.point::before {
+  content: "";
+  display: block;
+  background: url("../images/point.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  right: 0.7rem;
+  top: 0.2rem;
+  z-index: 3;
+}
+.finger::after {
+  content: "";
+  display: block;
+  background: url("../images/finger.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  right: 0.4rem;
+  bottom: 0.15rem;
+  z-index: 3;
+}
+
+.popup-order-success {
+  height: 8.68rem;
+  width: 7.3rem;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../images/order-success.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order-success .store-gp-btn {
+  position: absolute;
+  top: 6.45rem;
+  left: 1.05rem;
+  width: 1.7rem;
+  height: 0.55rem;
+  cursor: pointer;
+  background: url("../images/store-gp.png") no-repeat;
+  background-size: 100% 100%;
+}
+.popup-order-success .store-ios-btn {
+  position: absolute;
+  top: 6.45rem;
+  right: 2.7rem;
+  width: 1.7rem;
+  height: 0.55rem;
+  cursor: pointer;
+  background: url("../images/store-ios.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order-success .close {
+  width: 0.56rem;
+  height: 0.56rem;
+  position: absolute;
+  top: 1.15rem;
+  right: 1.2rem;
+  cursor: pointer;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+#like1 {
+  position: absolute;
+  top: 18.2rem;
+  right: 6.93rem;
+  margin: 0 0.4rem;
+  transform: scale(1);
+  font-size: 0;
+}
+
+.pop {
+  height: 3.31rem;
+  width: 8.13rem;
+  color: #000;
+  font-size: 0.3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/commonPop.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.pop .close {
+  position: absolute;
+  width: 0.65rem;
+  height: 0.65rem;
+  top: 0rem;
+  right: -0.6rem;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.pop .text {
+  width: 5.5rem;
+}
+
+.float-right {
+  display: none;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -3.53rem;
+}
+.right-card1 {
+  width: 2.58rem;
+  height: 7.07rem;
+  background: url("../images/float-right1.png") no-repeat;
+  background-size: 100% 100%;
+}
+.right-card2 {
+  width: 2.58rem;
+  height: 7.07rem;
+  background: url("../images/float-right2.png") no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.right-card3 {
+  width: 2.58rem;
+  height: 7.07rem;
+  background: url("../images/float-right3.png") no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.float-right-google-btn {
+  position: absolute;
+  top: 3.22rem;
+  right: 0.47rem;
+  width: 1.55rem;
+  height: 0.55rem;
+  cursor: pointer;
+}
+.float-right-apple-btn {
+  position: absolute;
+  top: 3.81rem;
+  right: 0.47rem;
+  width: 1.55rem;
+  height: 0.55rem;
+  cursor: pointer;
+}
+.float-right-assoc-btn {
+  position: absolute;
+  top: 4.4rem;
+  right: 0.47rem;
+  width: 1.55rem;
+  height: 0.55rem;
+  cursor: pointer;
+}
+.float-right-award-btn {
+  position: absolute;
+  top: 4.99rem;
+  right: 0.47rem;
+  width: 1.55rem;
+  height: 0.55rem;
+  cursor: pointer;
+}
+
+.float-right-award-top {
+  position: absolute;
+  top: 5.65rem;
+  right: 1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  cursor: pointer;
+}
+
+.reachDiv {
+  position: relative;
+}
+
+.reachDiv .reach1 {
+  position: absolute;
+  background: url("../images/reach.png") no-repeat;
+  background-size: 100% 100%;
+  left: 4.35rem;
+  top: 47.9rem;
+  height: 0.71rem;
+  width: 1rem;
+}
+.reachDiv .reach2 {
+  position: absolute;
+  background: url("../images/reach.png") no-repeat;
+  background-size: 100% 100%;
+  left: 6.95rem;
+  top: 47.9rem;
+  height: 0.71rem;
+  width: 1rem;
+}
+.reachDiv .reach3 {
+  position: absolute;
+  background: url("../images/reach.png") no-repeat;
+  background-size: 100% 100%;
+  left: 9.55rem;
+  top: 47.9rem;
+  height: 0.71rem;
+  width: 1rem;
+}
+.reachDiv .reach4 {
+  position: absolute;
+  background: url("../images/reach.png") no-repeat;
+  background-size: 100% 100%;
+  left: 12.15rem;
+  top: 47.9rem;
+  height: 0.71rem;
+  width: 1rem;
+}
+.reachDiv .reach5 {
+  position: absolute;
+  background: url("../images/reach.png") no-repeat;
+  background-size: 100% 100%;
+  left: 15.25rem;
+  top: 47.9rem;
+  height: 0.71rem;
+  width: 1rem;
+}
+
+.order-number {
+  position: absolute;
+  width: 2.18rem;
+  height: 0.6rem;
+  top: 45.3rem;
+  left: 7.85rem;
+  font-size: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.feature-swiper {
+  position: absolute;
+  top: 58.28rem;
+  left: 5.59rem;
+  width: 7.99rem;
+  height: 3.73rem;
+  overflow: hidden;
+}
+
+.feature-swiper img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.feature-star1 {
+  background: url("../images/feature-star.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.2rem;
+  height: 0.1rem;
+  position: absolute;
+  top: 58.22rem;
+  left: 9.49rem;
+  z-index: 2;
+}
+
+.feature-star2 {
+  background: url("../images/feature-star.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.2rem;
+  height: 0.1rem;
+  position: absolute;
+  top: 61.96rem;
+  left: 9.49rem;
+  z-index: 2;
+}
+
+.ball {
+  position: absolute;
+  top: 35.35rem;
+  left: 6.5rem;
+}
+
+.ball0 {
+  background: url("../images/ball0.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+
+.ball1 {
+  background: url("../images/ball1.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+.ball2 {
+  background: url("../images/ball2.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+.ball3 {
+  background: url("../images/ball3.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+.ball4 {
+  background: url("../images/ball4.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+.ball5 {
+  background: url("../images/ball5.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+.ball6 {
+  background: url("../images/ball6.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+.ball7 {
+  background: url("../images/ball7.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.31rem;
+  height: 5.54rem;
+}
+
+.endBtn {
+  background: url("../images/voucher-btn.png") no-repeat;
+  width: 2.65rem;
+  height: 0.73rem;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 8.3rem;
+  top: 41rem;
+  cursor: pointer;
+}
+.voucher-over-btn {
+  position: absolute;
+  background: url("../images/voucher-over-btn.png") no-repeat;
+  background-size: 100% 100%;
+  left: 8.3rem;
+  top: 41rem;
+  width: 2.64rem;
+  height: 0.73rem;
+  z-index: 2;
+}
+
+.endBtn-finger::after {
+  content: "";
+  display: block;
+  background: url("../images/finger.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  right: 0rem;
+  bottom: -0.25rem;
+  z-index: 3;
+}
+.endBtn-point::before {
+  content: "";
+  display: block;
+  background: url("../images/point.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.25rem;
+  height: 0.25rem;
+  position: absolute;
+  right: 0.4rem;
+  z-index: 3;
+  top: -0.14rem;
+}
+
+.card-swiper {
+  position: absolute;
+  top: 22rem;
+  left: 1.3rem;
+  width: 10.4rem;
+  height: 10.4rem;
+  overflow: hidden;
+}
+
+.card-swiper img {
+  width: 10.4rem;
+  height: 10.4rem;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card-title {
+  background: url("../images/card-title.png") no-repeat;
+  background-size: 100% 100%;
+  height: 4.01rem;
+  width: 11.5rem;
+  position: absolute;
+  top: 20.85rem;
+  left: 3.85rem;
+  z-index: 2;
+}
+
+.draw {
+  background: url("../images/draw.png") no-repeat;
+  background-size: 100% 100%;
+  width: 6.49rem;
+  height: 5.4rem;
+  position: absolute;
+  left: 9.73rem;
+  top: 24.9rem;
+  z-index: 2;
+}
+
+.draw-lockImg {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.77rem;
+  width: 2.25rem;
+  height: 2.96rem;
+  z-index: 2;
+}
+
+.draw-border-left {
+  background: url("../images/draw-border.png") no-repeat;
+  background-size: 100% 100%;
+  width: 2.39rem;
+  height: 3.97rem;
+  position: absolute;
+  right: 6.373rem;
+  top: 25.24rem;
+  z-index: 11;
+}
+
+.draw-border-right {
+  background: url("../images/draw-border.png") no-repeat;
+  background-size: 100% 100%;
+  width: 2.39rem;
+  height: 3.97rem;
+  position: absolute;
+  right: 3.69rem;
+  top: 25.24rem;
+  z-index: 2;
+}
+
+.draw-lock {
+  width: 2.25rem;
+  height: 0.76rem;
+  position: absolute;
+  right: 6.47rem;
+  top: 28.39rem;
+  z-index: 11;
+  cursor: pointer;
+}
+
+.draw-exchange {
+  width: 2.25rem;
+  height: 0.76rem;
+  position: absolute;
+  right: 3.77rem;
+  top: 28.39rem;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.luckyDiv {
+  position: absolute;
+  top: 25.3rem;
+  right: 6.45rem;
+  width: 2.25rem;
+  height: 2.95rem;
+  z-index: 10;
+}
+
+.draw-btn {
+  background: url("../images/draw-btn.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 3.96rem;
+  height: 0.9rem;
+  top: 29.4rem;
+  right: 4rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.draw-count {
+  width: 3.96rem;
+  height: 0.2rem;
+  position: absolute;
+  bottom: 0.07rem;
+  z-index: 3;
+  cursor: pointer;
+  font-size: 0.14rem;
+  text-align: center;
+}
+
+.draw-desc {
+  background: url("../images/draw-desc.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 3.06rem;
+  height: 0.16rem;
+  top: 30.45rem;
+  right: 4.6rem;
+  cursor: pointer;
+}
+
+.shareFB {
+  position: absolute;
+  width: 1.48rem;
+  height: 0.5rem;
+  right: 7.1rem;
+  top: 30.88rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.share-log {
+  background: url("../images/share-log.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 0.23rem;
+  height: 0.23rem;
+  right: -0.05rem;
+  top: -0.09rem;
+  z-index: 10;
+}
+
+.myCard {
+  position: absolute;
+  width: 1.48rem;
+  height: 0.5rem;
+  right: 5.49rem;
+  top: 30.88rem;
+  cursor: pointer;
+}
+
+.allCard {
+  position: absolute;
+  width: 1.48rem;
+  height: 0.5rem;
+  right: 3.8rem;
+  top: 30.88rem;
+  cursor: pointer;
+}
+
+.popup-select {
+  background: url("../images/popup-select.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.86rem;
+  height: 2.39rem;
+  position: relative;
+}
+
+.popup-select-text {
+  width: 5rem;
+  position: absolute;
+  font-size: 0.3rem;
+  color: #000;
+  top: 0.5rem;
+  left: 0.4rem;
+  text-align: center;
+}
+
+.popup-select-cancel {
+  position: absolute;
+  width: 1.6rem;
+  height: 0.52rem;
+  bottom: 0.5rem;
+  right: 1rem;
+}
+
+.popup-select-confirm {
+  position: absolute;
+  width: 1.6rem;
+  height: 0.52rem;
+  bottom: 0.5rem;
+  left: 1rem;
+}
+
+.popup-award-record {
+  background: url("../images/popup-award-record.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.86rem;
+  height: 9.11rem;
+  position: relative;
+}
+
+.popup-award-record .close {
+  position: absolute;
+  width: 0.65rem;
+  height: 0.65rem;
+  top: 0.55rem;
+  right: 0.1rem;
+  cursor: pointer;
+}
+
+.award-record-list {
+  position: absolute;
+  top: 2.8rem;
+  left: 0.6rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.award-record-item {
+  font-size: 0.17rem;
+  color: #000;
+  display: flex;
+  margin-bottom: 0.4rem;
+  width: 100%;
+}
+.award-record-text {
+  width: 1.6rem;
+  text-align: right;
+}
+.award-record-code {
+  width: 2.5rem;
+  text-align: center;
+}
+.award-record-copy {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.unfinished {
+  background: url("../images/unfinished.png") no-repeat;
+  background-size: 100% 100%;
+  height: 0.56rem;
+  width: 2.09rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.activity-store {
+  width: 2.3rem;
+  height: 0.56rem;
+  position: absolute;
+  right: 4.15rem;
+  top: 36.6rem;
+  cursor: pointer;
+}
+.activity-store .received {
+  width: 2.09rem;
+  height: 0.56rem;
+  background: url("../images/received.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0rem;
+}
+
+.activity-share {
+  width: 2.3rem;
+  height: 0.56rem;
+  position: absolute;
+  right: 3.4rem;
+  top: 38.1rem;
+  cursor: pointer;
+}
+
+.activity-share .received {
+  width: 2.09rem;
+  height: 0.56rem;
+  background: url("../images/received.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0rem;
+}
+
+.activity-assoc {
+  width: 2.3rem;
+  height: 0.56rem;
+  position: absolute;
+  right: 4.2rem;
+  top: 39.6rem;
+  cursor: pointer;
+}
+
+.activity-assoc .received {
+  width: 2.09rem;
+  height: 0.56rem;
+  background: url("../images/received.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+}
+
+.activity-friend {
+  width: 2.3rem;
+  height: 0.56rem;
+  position: absolute;
+  left: 4.02rem;
+  top: 36.6rem;
+  cursor: pointer;
+}
+
+.activity-friend .received {
+  width: 2.09rem;
+  height: 0.56rem;
+  background: url("../images/received.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+}
+
+.activity-like {
+  width: 2.3rem;
+  height: 0.56rem;
+  position: absolute;
+  left: 3.25rem;
+  top: 38.1rem;
+  cursor: pointer;
+}
+
+.activity-like .received {
+  width: 2.09rem;
+  height: 0.56rem;
+  background: url("../images/received.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+}
+
+.activity-phone {
+  width: 2.3rem;
+  height: 0.56rem;
+  position: absolute;
+  left: 4.02rem;
+  top: 39.6rem;
+}
+
+.activity-phone .received {
+  width: 2.09rem;
+  height: 0.56rem;
+  background: url("../images/received.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+}
+
+.popup-friend {
+  background: url("../images/friend-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 11.2rem;
+  height: 12.26rem;
+}
+
+.popup-friend .btn {
+  position: absolute;
+  top: 3.6rem;
+  left: 3.1rem;
+  font-size: 0.6rem;
+  width: 5rem;
+  height: 1.1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.popup-order {
+  width: 7.4rem;
+  height: 9.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  flex-direction: column;
+  position: relative;
+  background: url("../images/popup-order.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order-close {
+  position: absolute;
+  width: 0.65rem;
+  height: 0.65rem;
+  top: 1.5rem;
+  right: 0.6rem;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order .phoneDiv {
+  display: flex;
+  height: 0.5rem;
+  position: absolute;
+  top: 4.2rem;
+  left: 2rem;
+}
+.popup-order .phoneDiv .area {
+  height: 100%;
+  width: 1rem;
+  border: 0;
+  background: none;
+  color: #fff;
+  outline: none;
+  font-size: 0.16rem;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.popup-order .area-select {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.popup-order .area-options {
+  display: flex;
+  height: 2rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #1d1b33;
+  font-size: 0.2rem;
+  width: 1.4rem;
+  border-radius: 0.1rem;
+  margin-left: -0.1rem;
+  position: absolute;
+  z-index: 2;
+}
+.popup-order .area-options .area-option {
+  cursor: pointer;
+}
+.popup-order .phoneDiv input {
+  position: absolute;
+  left: 1rem;
+  top: 0rem;
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-size: 0.18rem;
+  text-indent: 1em;
+  width: 3rem;
+}
+
+.popup-preBtn {
+  position: absolute;
+  top: 4.85rem;
+  left: 2.2rem;
+  width: 3rem;
+  height: 0.7rem;
+  z-index: 1;
+  background: url("../images/popup-preBtn.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-share {
+  background: url("../images/fb-share-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 11.2rem;
+  height: 12.26rem;
+}
+
+.popup-share .btn {
+  position: absolute;
+  top: 3rem;
+  left: 3.1rem;
+  font-size: 0.6rem;
+  width: 5rem;
+  height: 1.1rem;
+  cursor: pointer;
+}
+
+.google-store {
+  position: absolute;
+  width: 1.45rem;
+  height: 0.54rem;
+  top: 18.925rem;
+  left: 5.3rem;
+  cursor: pointer;
+}
+
+.apple-store {
+  position: absolute;
+  width: 1.5rem;
+  height: 0.52rem;
+  top: 18.94rem;
+  left: 7.4rem;
+  cursor: pointer;
+}
+
+.draw-desc-btn {
+  width: 0.8rem;
+  height: 0.28rem;
+  position: absolute;
+  top: 23.6rem;
+  right: 5.85rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.activity-desc-btn {
+  width: 0.8rem;
+  height: 0.28rem;
+  position: absolute;
+  top: 34.5rem;
+  right: 5.85rem;
+  cursor: pointer;
+}
+
+.conclude-desc-btn {
+  width: 0.8rem;
+  height: 0.28rem;
+  position: absolute;
+  top: 45.55rem;
+  right: 5.85rem;
+  cursor: pointer;
+}
+
+.popup-activity-desc {
+  background: url("../images/popup-activity-desc.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.86rem;
+  height: 9.11rem;
+}
+
+.popup-activity-desc .text {
+  position: absolute;
+  width: 5rem;
+  height: 4.8rem;
+  top: 3rem;
+  left: 0.5rem;
+  font-size: 0.16rem;
+  box-sizing: border-box;
+  color: black;
+  line-height: 0.4rem;
+  overflow-y: auto;
+}
+
+.popup-activity-desc .text::-webkit-scrollbar {
+  width: 0.08rem; /* 滚动条宽度 */
+  background-color: #c3c3c3;
+}
+
+.popup-activity-desc .text::-moz-scrollbar {
+  width: 0.08rem; /* 滚动条宽度 */
+  background-color: #c3c3c3;
+}
+
+.popup-activity-desc .text::-ms-scrollbar {
+  width: 0.08rem; /* 滚动条宽度 */
+  background-color: #c3c3c3;
+}
+
+.popup-activity-desc .close {
+  position: absolute;
+  width: 0.6rem;
+  height: 0.6rem;
+  top: 1.35rem;
+  right: -0.6rem;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.popup-voucher-desc {
+  background: url("../images/popup-voucher-desc.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.86rem;
+  height: 9.11rem;
+}
+
+.popup-voucher-desc .text {
+  position: absolute;
+  width: 5.8rem;
+  top: 3rem;
+  padding: 0 0.5rem;
+  font-size: 0.16rem;
+  box-sizing: border-box;
+  color: black;
+  line-height: 0.4rem;
+}
+
+.popup-voucher-desc .close {
+  position: absolute;
+  width: 0.6rem;
+  height: 0.6rem;
+  top: 1.35rem;
+  right: -0.6rem;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.popup-draw-desc {
+  background: url("../images/popup-draw-desc.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.86rem;
+  height: 9.11rem;
+}
+
+.popup-draw-desc .text {
+  position: absolute;
+  width: 5.8rem;
+  top: 3rem;
+  padding: 0 0.5rem;
+  font-size: 0.16rem;
+  box-sizing: border-box;
+  color: black;
+  line-height: 0.3rem;
+}
+
+.popup-draw-desc .close {
+  position: absolute;
+  width: 0.6rem;
+  height: 0.6rem;
+  top: 1.35rem;
+  right: -0.6rem;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.popup-friend {
+  background: url("../images/friend-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.42rem;
+  height: 5.73rem;
+}
+
+.popup-friend .btn {
+  position: absolute;
+  top: 2.3rem;
+  left: 0.8rem;
+  font-size: 0.6rem;
+  width: 3.8rem;
+  height: 0.85rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.popup-store {
+  background: url("../images/store-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.42rem;
+  height: 5.73rem;
+}
+
+.popup-apple-btn {
+  position: absolute;
+  top: 2.4rem;
+  left: 0.35rem;
+  font-size: 0.6rem;
+  width: 2.34rem;
+  height: 0.72rem;
+  cursor: pointer;
+}
+
+.popup-gp-btn {
+  position: absolute;
+  top: 2.4rem;
+  right: 0.35rem;
+  font-size: 0.6rem;
+  width: 2.34rem;
+  height: 0.72rem;
+  cursor: pointer;
+}
+
+.popup-assoc {
+  background: url("../images/assoc-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.42rem;
+  height: 5.73rem;
+}
+
+.popup-assoc .btn {
+  position: absolute;
+  top: 2.3rem;
+  left: 0.8rem;
+  width: 3.8rem;
+  height: 0.85rem;
+}
+
+.popup-phone {
+  background: url("../images/phone-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 11.2rem;
+  height: 12.26rem;
+}
+
+.popup-phone .btn {
+  position: absolute;
+  top: 3.6rem;
+  left: 3.1rem;
+  font-size: 0.6rem;
+  width: 5rem;
+  height: 1.1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.popup-like {
+  background: url("../images/fb-like-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.42rem;
+  height: 5.74rem;
+}
+
+.popup-like .btn {
+  position: absolute;
+  top: 2.5rem;
+  left: 1.82rem;
+  width: 1rem;
+  height: 0.3rem;
+  font-size: 0;
+  transform: scale(1);
+  margin: 0 auto;
+}
+
+.popup-share {
+  background: url("../images/fb-share-pop.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.42rem;
+  height: 5.73rem;
+}
+
+.popup-share .btn {
+  position: absolute;
+  top: 2.3rem;
+  left: 0.8rem;
+  font-size: 0.6rem;
+  width: 3.8rem;
+  height: 0.85rem;
+}
+
+.swiper-pagination {
+  position: absolute;
+  top: 62rem;
+  left: 8.1rem;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+  background: url("../images/darkness.png") no-repeat;
+  width: 0.5rem;
+  height: 0.5rem;
+  opacity: 1;
+  background-size: 100% 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background: url("../images/bright.png") no-repeat;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-size: 100% 100%;
+}
+
+.menu-btn {
+  position: fixed;
+  right: 0.69rem;
+  top: 0.56rem;
+  background: url("../images/menu-switch.png") no-repeat;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  background: url("../images/menu.png") no-repeat;
+  width: 2.4rem;
+  height: 6.13rem;
+  margin-top: -3.065rem;
+  background-size: 100% 100%;
+}
+
+.menu-btn-close {
+  width: 0.56rem;
+  height: 0.56rem;
+  position: absolute;
+  bottom: -0.6rem;
+  left: 0.63rem;
+  cursor: pointer;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.menu-btn-p1 {
+  width: 1.5rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  cursor: pointer;
+}
+
+.menu-btn-p2 {
+  width: 1.5rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 1.2rem;
+  left: 0rem;
+  cursor: pointer;
+}
+.menu-btn-p3 {
+  width: 1.5rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 2.1rem;
+  left: 0rem;
+  cursor: pointer;
+}
+.menu-btn-p4 {
+  width: 1.5rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 3.1rem;
+  left: 0rem;
+  cursor: pointer;
+}
+.menu-btn-p5 {
+  width: 1.5rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 4.1rem;
+  left: 0rem;
+  cursor: pointer;
+}
+.menu-btn-p6 {
+  width: 1.5rem;
+  height: 1rem;
+  position: absolute;
+  top: 5.1rem;
+  left: 0rem;
+  cursor: pointer;
+}
+
+#p1 {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 11rem;
+  left: 0;
+}
+
+#p2 {
+  width: 0.1rem;
+  height: 0.1rem;
+  position: absolute;
+  top: 22.07rem;
+  left: 0;
+}
+
+#p3 {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 32.8rem;
+  left: 0;
+}
+
+#p4 {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 43.5rem;
+  left: 0;
+}
+
+#p5 {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 55rem;
+  left: 0;
+}
+
+.animation-btn {
+  animation: btn 2s linear infinite;
+}
+
+.video {
+  background: url("../images/video.png") no-repeat;
+  background-size: 100% 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 4.6rem;
+  left: 8.8rem;
+  z-index: 2;
+}
+
+.video-back {
+  background: url("../images/video-btn.png") no-repeat;
+  background-size: 100% 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 4.6rem;
+  left: 8.8rem;
+  animation: b 5s linear infinite;
+}
+
+.clause {
+  position: absolute;
+  width: 0.9rem;
+  height: 0.35rem;
+  left: 0.9rem;
+  bottom: 0.75rem;
+  cursor: pointer;
+}
+.privacy {
+  position: absolute;
+  width: 0.7rem;
+  height: 0.35rem;
+  left: 1.8rem;
+  bottom: 0.75rem;
+  cursor: pointer;
+}
+.relation {
+  position: absolute;
+  width: 0.8rem;
+  height: 0.35rem;
+  left: 2.55rem;
+  bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.popup-allCard {
+  background: url("../images/popup-allCard.png") no-repeat;
+  background-size: 100% 100%;
+  width: 12.08rem;
+  height: 7.66rem;
+  display: none;
+}
+
+.handbookDiv {
+  position: absolute;
+  left: 1.3rem;
+  top: 1rem;
+  width: 9.47rem;
+  height: 5.5rem;
+  background-size: 100% 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* 
+.handbookDiv::-webkit-scrollbar {
+  width: 0.15rem;
+  background-color: #c3c3c3;
+}
+
+.handbookDiv::-moz-scrollbar {
+  width: 0.1rem;
+  background-color: #c3c3c3;
+}
+
+.handbookDiv::-ms-scrollbar {
+  width: 0.1rem;
+  background-color: #c3c3c3;
+} */
+
+.handbook {
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 9.47rem;
+  height: 13.14rem;
+  background: url("../images/handbook.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.handbook-swiper .swiper-slide {
+  margin-right: 0.5rem;
+}
+
+.popup-allCard .close {
+  position: absolute;
+  right: 0.55rem;
+  top: 0rem;
+  width: 0.6rem;
+  height: 0.55rem;
+}
+
+.popup-mycard {
+  width: 5.86rem;
+  height: 9.11rem;
+  background: url("../images/popup-mycard.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-mycard-img {
+  width: 3.5rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 2.5rem;
+}
+
+.popup-exchange {
+  background: url("../images/popup-exchange.png") no-repeat;
+  background-size: 100% 100%;
+  width: 5.86rem;
+  height: 4.01rem;
+}
+
+.popup-exchange-img {
+  width: 1.5rem;
+  height: 2.87rem;
+  position: absolute;
+  left: 0.45rem;
+  top: 0.4rem;
+}
+
+.popup-exchange-text {
+  font-size: 0.35rem;
+  color: #fff;
+  position: absolute;
+  left: 2.3rem;
+  bottom: 1.4rem;
+  font-weight: bold;
+  width: 2.8rem;
+  text-align: center;
+}
+
+.like-point::before {
+  content: "";
+  display: block;
+  background: url("../images/point.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.1rem;
+  height: 0.1rem;
+  position: absolute;
+  right: 0.1rem;
+  top: -0.05rem;
+  z-index: 3;
+}
+
+.like-finger::after {
+  content: "";
+  display: block;
+  background: url("../images/finger.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  right: -0.1rem;
+  bottom: -0.06rem;
+  z-index: 3;
+}
+
+.popup-preBtn-point::before {
+  background: url("../images/point.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.3rem;
+  height: 0.3rem;
+  content: "";
+  position: absolute;
+  right: 0.5rem;
+  top: -0.05rem;
+}
+.popup-preBtn-finger::after {
+  background: url("../images/finger.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  content: "";
+  position: absolute;
+  right: 0.05rem;
+  bottom: -0.1rem;
+}
+
+.store-btn-point::before {
+  background: url("../images/point.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.2rem;
+  height: 0.2rem;
+  content: "";
+  position: absolute;
+  right: 0rem;
+  top: -0.05rem;
+}
+
+.store-btn-finger::after {
+  background: url("../images/finger.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.35rem;
+  height: 0.35rem;
+  content: "";
+  position: absolute;
+  right: -0.1rem;
+  bottom: -0.2rem;
+}
+
+.card-swiper-button-prev {
+  background: url("../images/card-swiper-button-prev.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.76rem;
+  height: 2.35rem;
+  position: absolute;
+  top: 26.2rem;
+  left: 4rem;
+  z-index: 3;
+}
+
+.card-swiper-button-next {
+  background: url("../images/card-swiper-button-next.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.76rem;
+  height: 2.35rem;
+  position: absolute;
+  top: 26.2rem;
+  left: 8.5rem;
+  z-index: 3;
+}
+
+.popup-img {
+  width: 14rem;
+  height: 6.8rem;
+  background-size: 100% 100%;
+}
+
+.order-store-light {
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
+
+.order-store-light::after {
+  background: url("../images/order-store-light.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 1.92rem;
+  height: 0.8rem;
+  content: "";
+  transition: all 650ms;
+  top: 0rem;
+  z-index: 2;
+  animation: sg 2s linear infinite;
+}
+
+.bottomDiv {
+  position: absolute;
+  top: 64rem;
+}
+
+.matters {
+  position: relative;
+  margin-left: 8.5rem;
+  background: url("../images/matters.png") no-repeat;
+  background-size: 100% 100%;
+  width: 2.24rem;
+  height: 0.37rem;
+}
+
+.matters-top::after {
+  content: "";
+  position: absolute;
+  right: 0.5rem;
+  top: 0.15rem;
+  background: url("../images/matters-top.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.22rem;
+  height: 0.1rem;
+}
+.matters-bottom::after {
+  content: "";
+  position: absolute;
+  right: 0.5rem;
+  top: 0.15rem;
+  background: url("../images/matters-bottom.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.22rem;
+  height: 0.1rem;
+}
+
+.matters-desc {
+  background: url("../images/matters-desc.png") no-repeat;
+  background-size: 100% 100%;
+  width: 19.2rem;
+  height: 8.5rem;
+}
+
+.bottom {
+  background: url("../images/bottom.png") no-repeat;
+  background-size: 100% 100%;
+  width: 19.2rem;
+  height: 2.83rem;
+  margin-top: -1px;
+  position: relative;
+}
+
+.full-shade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+@media(max-width: 1024px) {
+  .p1 {
+    position: relative;
+    background: url("../images/backgroud-mobile.jpg") no-repeat;
+    /* background-size: 100% 100%; */
+    /* width: 100vw; */
+    width: 100vw;
+    height: 92rem;
+    background-size: 100% 100%;
+  }
+}
