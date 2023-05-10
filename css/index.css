@@ -1879,9 +1879,58 @@ a {
   }
   .ball {
     position: absolute;
-    /* top: 35.35rem; */
-    /* top: 10000rem; */
-    left: 6.5rem;
+    top: 48.85rem;  
+    left: 5rem;
+  }
+  
+  .ball0 {
+    background: url("../images/ball0.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
+  }
+  
+  .ball1 {
+    background: url("../images/ball1.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
+  }
+  .ball2 {
+    background: url("../images/ball2.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
+  }
+  .ball3 {
+    background: url("../images/ball3.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
+  }
+  .ball4 {
+    background: url("../images/ball4.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
+  }
+  .ball5 {
+    background: url("../images/ball5.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
+  }
+  .ball6 {
+    background: url("../images/ball6.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
+  }
+  .ball7 {
+    background: url("../images/ball7.png") no-repeat;
+    background-size: 100% 100%;
+    width: 9.46rem;
+    height: 8.31rem;
   }
   .endBtn {
     background: url(../images/voucher-btn.png) no-repeat;
@@ -1909,5 +1958,13 @@ a {
 }
 .bottomDiv {
   top: 91.6rem;
+}
+.feature-swiper {
+  position: absolute;
+  top: 83.07rem;
+  left: 3.84rem;
+  width: 11.5rem;
+  height: 5.28rem;
+  overflow: hidden;
 }
 }
