@@ -1811,15 +1811,7 @@ a {
   cursor: pointer;
   font-size: 0.14rem;
 }
-  .activity-store {
-  width: 2.3rem;
-  height: 0.56rem;
-  position: absolute;
-  right: 4.15rem;
-  /* top: 36.6rem; */
-  /* top: 10000rem; */
-  cursor: pointer;
-  } 
+
   .draw-desc {
     top: 42.45rem;
   }
@@ -1829,22 +1821,34 @@ a {
     margin-bottom: 0.08rem;
   }
 
+  .activity-store {
+    width: 2.3rem;
+    height: 0.56rem;
+    position: absolute;
+    right: 4.9rem;
+    top: 57.5rem;
+    /* top: 36.6rem; */
+    /* top: 10000rem; */
+    cursor: pointer;
+    } 
+
   .activity-share {
     width: 2.3rem;
     height: 0.56rem;
     position: absolute;
-    right: 3.4rem;
+    right: 4.9rem;
+    top: 59.6rem;
     /* top: 38.1rem; */
     /* top: 10000rem; */
     cursor: pointer;
   }
 
-
   .activity-assoc {
     width: 2.3rem;
     height: 0.56rem;
     position: absolute;
-    right: 4.2rem;
+    right: 4.9rem;
+    top: 61.7rem;
     /* top: 10000rem; */
     cursor: pointer;
   }
@@ -1853,7 +1857,8 @@ a {
     width: 2.3rem;
     height: 0.56rem;
     position: absolute;
-    left: 4.02rem;
+    left: 4.72rem;
+    top: 57.5rem;
     /* top: 36.6rem; */
     /* top: 10000rem; */
     cursor: pointer;
@@ -1863,7 +1868,8 @@ a {
     width: 2.3rem;
     height: 0.56rem;
     position: absolute;
-    left: 3.25rem;
+    left: 4.72rem;
+    top: 59.6rem;
     /* top: 38.1rem; */
     /* top: 10000rem; */
     cursor: pointer;
@@ -1873,7 +1879,8 @@ a {
     width: 2.3rem;
     height: 0.56rem;
     position: absolute;
-    left: 4.02rem;
+    left: 4.72rem;
+    top: 61.7rem;
     /* top: 39.6rem; */
     /* top: 10000rem; */
   }
@@ -1939,6 +1946,7 @@ a {
     background-size: 100% 100%;
     position: absolute;
     left: 8.3rem;
+    top: 56rem;
     /* top: 41rem; */
     /* top: 10000rem; */
     cursor: pointer;
@@ -1947,10 +1955,9 @@ a {
     position: absolute;
     width: 2.18rem;
     height: 0.6rem;
-    /* top: 45.3rem; */
-    /* top: 10000rem; */
-    left: 7.85rem;
-    font-size: 0.5rem;
+    top: 64.7rem;
+    left: 7.45rem;
+    font-size: 0.8rem;
     color: #fff;
     font-weight: bold;
     font-style: italic;
@@ -1967,4 +1974,11 @@ a {
   height: 5.28rem;
   overflow: hidden;
 }
+.swiper-pagination {
+  position: absolute;
+  top: 89rem;
+  left: 8.1rem;
+  cursor: pointer;
+}
+
 }
