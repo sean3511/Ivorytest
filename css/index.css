@@ -1739,6 +1739,9 @@ a {
 }
 
 @media(max-width: 1024px) {
+  .preBtn {
+    top: 22.25rem;
+  }
   .p1-preBtn {
     top: 13rem;
 }
@@ -1753,11 +1756,47 @@ a {
   }
   #like1 {
     position: absolute;
-    top: 25rem;
-    right: 3rem;
+    top: 28rem;
+    right: 1rem;
     margin: 0 0.4rem;
     transform: scale(0.8);
     font-size: 0;
+  }
+  .p1 .phoneDiv {
+    position: absolute;
+    top: 20.7rem;
+    left: 6.8rem;
+    width: 6rem;
+    height: 0.54rem;
+    display: flex;
+    z-index: 3;
+  }
+  .p1 .phoneDiv .area {
+    left: -1rem;
+    width: 2rem;
+  }
+  .p1 .area-options {
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #1d1b33;
+    font-size: 8px !important;
+    width: auto;
+    border-radius: 0.1rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+  }
+  .p1 .phoneDiv input {
+    height: 100%;
+    border: 0;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 0.22rem;
+    position: absolute;
+    left: 2rem;
+    width: auto;
   }
   .card-title {
     background: url(../images/card-title.png) no-repeat;
@@ -1798,6 +1837,10 @@ a {
     right: 6.373rem;
     top: 36.24rem;
 }
+.luckyDiv{
+  right: 6.373rem;
+  top: 36.24rem;
+}
 .draw-btn {
   top: 40.4rem;
   height: 1.1rem;
@@ -1818,7 +1861,9 @@ a {
   .draw-count {
     cursor: pointer;
     font-size: 0.08rem;
-    margin-bottom: 0.08rem;
+    -webkit-transform: scale(0.6);
+    -webkit-text-size-adjust:none;
+    margin-bottom: 0.2rem;
   }
 
   .activity-store {
@@ -1980,5 +2025,122 @@ a {
   left: 8.1rem;
   cursor: pointer;
 }
+.menu-btn{
+  display: none;
+}
+.activity-desc-btn {
+  width: 1.2rem;
+    height: 0.4rem;
+    top: 46.5rem;
+    right: 2.5rem;
+}
+.shareFB {
+  width: 1.48rem;
+  height: 0.5rem;
+  right: 7rem;
+  top: 41.8em;
+}
+.myCard {
+    width: 1.48rem;
+    height: 0.5rem;
+    right: 5.2rem;
+    top: 41.8em;
+}
+.allCard{
+  width: 1.48rem;
+  height: 0.5rem;
+  right: 3.4rem;
+  top: 41.8em;
+}
+.google-store {
+  width: 1.75rem;
+  height: 0.7em;
+  top: 27rem;
+  left: 3.7rem;
+}
 
+.apple-store {
+  width: 1.75rem;
+  height: 0.7em;
+  top: 27rem;
+  left: 6.6rem;
+}
+.popup-order {
+  top: 50% !important;  
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 25.4rem;
+  height: 32.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  flex-direction: column;
+  position: relative;
+  background: url("../images/popup-order.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order-close {
+  position: absolute;
+  width: 0.65rem;
+  height: 0.65rem;
+  top: 1.5rem;
+  right: 0.6rem;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order .phoneDiv {
+  display: flex;
+  height: 0.5rem;
+  position: absolute;
+  top: 15rem;
+  left: 7rem;
+}
+.popup-order .phoneDiv .area {
+  height: 100%;
+  width: 3rem;
+  border: 0;
+  background: none;
+  color: #fff;
+  outline: none;
+  font-size: 0.16rem;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.popup-order .area-select {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.popup-order .area-options {
+  height: auto;
+  font-size: 0.2rem;
+  width: auto;
+  margin-top: 0.4rem;
+}
+.popup-order .area-options .area-option {
+  cursor: pointer;
+}
+.popup-order .phoneDiv input {
+  position: absolute;
+  left: 4rem;
+  top: 0rem;
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-size: 0.18rem;
+  text-indent: 1em;
+  width: auto;
+}
+.popup-preBtn {
+  top: 16.85rem;
+  left: 6.8rem;
+  width: 12rem;
+  height: 2.8rem;
+}
 }
