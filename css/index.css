@@ -1867,131 +1867,171 @@ a {
   }
 
   .activity-store {
-    width: 2.3rem;
-    height: 0.56rem;
+       width: 4.6rem;
+    height: 1.12rem;
     position: absolute;
-    right: 4.9rem;
-    top: 57.5rem;
+   right: 2rem;
+    top: 55.2rem;
     /* top: 36.6rem; */
     /* top: 10000rem; */
     cursor: pointer;
-    } 
+    }
+    .activity-store .received{
+      width: 4.6rem;
+      height: 1.12rem;
+    }
+
+
 
   .activity-share {
-    width: 2.3rem;
-    height: 0.56rem;
+       width: 4.6rem;
+    height: 1.12rem;
     position: absolute;
-    right: 4.9rem;
-    top: 59.6rem;
+   right: 2rem;
+    top: 58.2rem;
     /* top: 38.1rem; */
     /* top: 10000rem; */
     cursor: pointer;
+  }
+  .activity-share .received{
+    width: 4.6rem;
+    height: 1.12rem;
   }
 
   .activity-assoc {
-    width: 2.3rem;
-    height: 0.56rem;
+       width: 4.6rem;
+    height: 1.12rem;
     position: absolute;
-    right: 4.9rem;
-    top: 61.7rem;
+   right: 2rem;
+    top: 61.2rem;
     /* top: 10000rem; */
     cursor: pointer;
   }
+  .activity-assoc .received{
+    width: 4.6rem;
+    height: 1.12rem;
+  }
+
+  
+  .unfinished {
+    background: url("../images/unfinished.png") no-repeat;
+    background-size: 100% 100%;
+    width: 4.6rem;
+    height: 1.12rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 
   .activity-friend {
-    width: 2.3rem;
-    height: 0.56rem;
+       width: 4.6rem;
+    height: 1.12rem;
     position: absolute;
-    left: 4.72rem;
-    top: 57.5rem;
+    left: 2.1rem;
+    top: 55.2rem;
     /* top: 36.6rem; */
     /* top: 10000rem; */
     cursor: pointer;
   }
+  .activity-friend .received{
+    width: 4.6rem;
+    height: 1.12rem;
+  }
+
 
   .activity-like {
-    width: 2.3rem;
-    height: 0.56rem;
+    width: 4.6rem;
+    height: 1.12rem;
     position: absolute;
-    left: 4.72rem;
-    top: 59.6rem;
+    left: 2.1rem;
+    top: 58.2rem;
     /* top: 38.1rem; */
     /* top: 10000rem; */
     cursor: pointer;
   }
+  .activity-like .received{
+    width: 4.6rem;
+    height: 1.12rem;
+  }
 
   .activity-phone {
-    width: 2.3rem;
-    height: 0.56rem;
+       width: 4.6rem;
+    height: 1.12rem;
     position: absolute;
-    left: 4.72rem;
-    top: 61.7rem;
+    left: 2.1rem;
+    top: 61.2rem;
     /* top: 39.6rem; */
     /* top: 10000rem; */
   }
+
+  .activity-phone .received{
+    width: 4.6rem;
+    height: 1.12rem;
+  }
+
   .ball {
     position: absolute;
-    top: 48.85rem;  
-    left: 5rem;
+    top: 46.85rem;
+    left: 3.5rem;
   }
   
   .ball0 {
     background: url("../images/ball0.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+    width: 12rem;
+    height: 10.5rem;
   }
   
   .ball1 {
     background: url("../images/ball1.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+        width: 12rem;
+    height: 10.5rem;
   }
   .ball2 {
     background: url("../images/ball2.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+       width: 12rem;
+    height: 10.5rem;
   }
   .ball3 {
     background: url("../images/ball3.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+       width: 12rem;
+    height: 10.5rem;
   }
   .ball4 {
     background: url("../images/ball4.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+       width: 12rem;
+    height: 10.5rem;
   }
   .ball5 {
     background: url("../images/ball5.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+       width: 12rem;
+    height: 10.5rem;
   }
   .ball6 {
     background: url("../images/ball6.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+       width: 12rem;
+    height: 10.5rem;
   }
   .ball7 {
     background: url("../images/ball7.png") no-repeat;
     background-size: 100% 100%;
-    width: 9.46rem;
-    height: 8.31rem;
+       width: 12rem;
+    height: 10.5rem;
   }
   .endBtn {
     background: url(../images/voucher-btn.png) no-repeat;
-    width: 2.65rem;
-    height: 0.73rem;
+    width: 5.3rem;
+    height: 1.46rem;
     background-size: 100% 100%;
     position: absolute;
-    left: 8.3rem;
-    top: 56rem;
+    left: 7rem;
+    top: 54rem;
     /* top: 41rem; */
     /* top: 10000rem; */
     cursor: pointer;
@@ -2013,15 +2053,14 @@ a {
 }
 .feature-swiper {
   position: absolute;
-  top: 83.07rem;
-  left: 3.84rem;
-  width: 11.5rem;
-  height: 5.28rem;
-  overflow: hidden;
+  top: 81.77rem;
+  left: 1.1rem;
+  width: 17rem;
+  height: 7.98rem;
 }
 .swiper-pagination {
   position: absolute;
-  top: 89rem;
+  top: 90rem;
   left: 8.1rem;
   cursor: pointer;
 }
@@ -2082,13 +2121,10 @@ a {
 }
 
 .popup-order-close {
-  position: absolute;
-  width: 0.65rem;
-  height: 0.65rem;
-  top: 1.5rem;
-  right: 0.6rem;
-  background: url("../images/close.png") no-repeat;
-  background-size: 100% 100%;
+  width: 2rem;
+  height: 2rem;
+  top: 3rem;
+  right: 4rem;
 }
 
 .popup-order .phoneDiv {
@@ -2142,5 +2178,13 @@ a {
   left: 6.8rem;
   width: 12rem;
   height: 2.8rem;
+}
+.float-right {
+  display: none;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -3.53rem;
+  z-index: 1000;
 }
 }
