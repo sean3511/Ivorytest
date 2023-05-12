@@ -2195,4 +2195,51 @@ a {
   margin-top: -3.53rem;
   z-index: 1000;
 }
+
+.popup-order-success {
+  height: 30.2rem;
+  width: 25.4rem;
+  top:50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%)!important;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../images/order-success.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order-success .store-gp-btn {
+  position: absolute;
+  top: 6.45rem;
+  left: 1.05rem;
+  width: 1.7rem;
+  height: 0.55rem;
+  cursor: pointer;
+  background: url("../images/store-gp.png") no-repeat;
+  background-size: 100% 100%;
+}
+.popup-order-success .store-ios-btn {
+  position: absolute;
+  top: 6.45rem;
+  right: 2.7rem;
+  width: 1.7rem;
+  height: 0.55rem;
+  cursor: pointer;
+  background: url("../images/store-ios.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-order-success .close {
+  width: 0.56rem;
+  height: 0.56rem;
+  position: absolute;
+  top: 1.15rem;
+  right: 1.2rem;
+  cursor: pointer;
+  background: url("../images/close.png") no-repeat;
+  background-size: 100% 100%;
+}
 }
