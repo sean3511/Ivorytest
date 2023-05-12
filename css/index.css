@@ -1793,7 +1793,7 @@ a {
     outline: none;
     background: none;
     color: #fff;
-    font-size: 0.22rem;
+    font-size: 14px !important;
     position: absolute;
     left: 2rem;
     width: auto;
@@ -2141,7 +2141,7 @@ a {
   background: none;
   color: #fff;
   outline: none;
-  font-size: 0.16rem;
+  font-size: 14px !important;
   text-align: center;
   border-radius: 0.2rem;
 }
@@ -2169,7 +2169,7 @@ a {
   outline: none;
   background: none;
   color: #fff;
-  font-size: 0.18rem;
+  font-size: 14px !important;
   text-indent: 1em;
   width: auto;
 }
