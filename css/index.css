@@ -1744,7 +1744,11 @@ a {
   }
   .p1-preBtn {
     top: 13rem;
-}
+    width: 6.84rem;
+    height: 1.48rem;
+    background-size: 100% 100%;
+    left: 6.1rem;
+  }
   .p1 {
     position: relative;
     background: url("../images/backgroud-mobile.jpg") no-repeat;
@@ -2212,34 +2216,22 @@ a {
 }
 
 .popup-order-success .store-gp-btn {
-  position: absolute;
-  top: 6.45rem;
-  left: 1.05rem;
-  width: 1.7rem;
-  height: 0.55rem;
-  cursor: pointer;
-  background: url("../images/store-gp.png") no-repeat;
-  background-size: 100% 100%;
+    top: 22.45rem;
+    left: 5.55rem;
+    width: 6.8rem;
+    height: 2.2rem;
 }
 .popup-order-success .store-ios-btn {
-  position: absolute;
-  top: 6.45rem;
-  right: 2.7rem;
-  width: 1.7rem;
-  height: 0.55rem;
-  cursor: pointer;
-  background: url("../images/store-ios.png") no-repeat;
-  background-size: 100% 100%;
+  top: 22.45rem;
+  right: 5.7rem;
+  width: 6.8rem;
+  height: 2.2rem;
 }
 
 .popup-order-success .close {
-  width: 0.56rem;
-  height: 0.56rem;
-  position: absolute;
-  top: 1.15rem;
-  right: 1.2rem;
-  cursor: pointer;
-  background: url("../images/close.png") no-repeat;
-  background-size: 100% 100%;
+  width: 2rem;
+  height: 2rem;
+  top: 5rem;
+  right: 4rem;
 }
 }
