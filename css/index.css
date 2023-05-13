@@ -1726,17 +1726,23 @@ a {
 
 @media(max-width: 1024px) {
   .preBtn {
-    width: 7.6rem;
-    height: 2.28rem;
-    left: 5.7rem;
-    top: 21.7rem;
-  }
+    width: 18rem;
+    height: 3.2799999999999994rem;
+    left: 0.6999999999999993rem;
+    top: 21.2rem;
+}
   .p1-preBtn {
     top: 13rem;
     width: 6.84rem;
     height: 1.48rem;
     background-size: 100% 100%;
     left: 6.1rem;
+  }
+  .point::before{
+    display: none;
+  }
+  .finger::after{
+    display: none;
   }
   .p1 {
     position: relative;
@@ -1749,7 +1755,7 @@ a {
   }
   #like1 {
     position: absolute;
-    top: 28rem;
+    top: 27rem;
     right: 1rem;
     margin: 0 0.4rem;
     transform: scale(0.8);
@@ -1805,7 +1811,7 @@ a {
     height: 4.01rem;
     width: 11.5rem;
     position: absolute;
-    top: 31rem;
+    top: 29rem;
     left: 3.85rem;
     z-index: 2;
   }
@@ -1819,6 +1825,7 @@ a {
     z-index: 2;
   }
   .card-swiper {
+    display: none;
     position: absolute;
     top: 34rem;
     left: 1.3rem;
@@ -1827,44 +1834,48 @@ a {
     overflow: hidden;
   }
   .draw {
-    left: 9.73rem;
-    top: 35.9rem;
+    width: 16.22rem;
+    height: 13.5rem;
+    left: 1.5rem;
+    top: 31.5rem;
   }
   .draw-border-right {
-    right: 3.69rem;
-    top: 36.24rem;
+    width: 5.97rem;
+    height: 9.92rem;
+    right: 3.25rem;
+    top: 32.3rem;
   }
   .draw-border-left {
-    right: 6.373rem;
-    top: 36.24rem;
+    width: 5.97rem;
+    height: 9.92rem;
+    right: 10rem;
+    top: 32.3rem;
+}
+.float-right{
+  display: none !;
 }
 .luckyDiv{
   right: 6.373rem;
   top: 36.24rem;
 }
 .draw-btn {
-  top: 40.4rem;
-  height: 1.1rem;
+  top: 42.4rem;
+  width: 9.9rem;
+  right: 4.3rem;
+  height: 2.1rem;
 }
-.draw-count {
-  width: 3.96rem;
-  height: 0.2rem;
-  position: absolute;
-  bottom: 0.07rem;
-  z-index: 3;
-  cursor: pointer;
-  font-size: 0.14rem;
-}
-
   .draw-desc {
     top: 42.45rem;
   }
   .draw-count {
+    width: auto;
     cursor: pointer;
-    font-size: 0.08rem;
-    -webkit-transform: scale(0.6);
-    -webkit-text-size-adjust:none;
-    margin-bottom: 0.2rem;
+    font-size: 10px;
+    -webkit-text-size-adjust: none;
+    margin-top: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
   }
 
   .activity-store {
@@ -2075,18 +2086,21 @@ a {
     right: 2.5rem;
 }
 .shareFB {
+  display: none;
   width: 1.48rem;
   height: 0.5rem;
   right: 7rem;
   top: 41.8em;
 }
 .myCard {
+  display: none;
     width: 1.48rem;
     height: 0.5rem;
     right: 5.2rem;
     top: 41.8em;
 }
 .allCard{
+  display: none;
   width: 1.48rem;
   height: 0.5rem;
   right: 3.4rem;
@@ -2287,4 +2301,17 @@ a {
   width: 11.3rem;
   height: 2.5rem;
 }
+.draw-lock {
+  width: 5.75rem;
+    height: 2.25rem;
+    right: 10.10000000000001rem;
+    top: 40.1rem;
+}
+.draw-exchange {
+  width: 5.75rem;
+  height: 2.25rem;
+  right: 3.34rem;
+  top: 40.1rem;
+}
+
 }
