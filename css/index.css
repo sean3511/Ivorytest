@@ -1852,11 +1852,18 @@ a {
     top: 32.3rem;
 }
 .float-right{
-  display: none !;
+  display: none !important;
 }
 .luckyDiv{
-  right: 6.373rem;
-  top: 36.24rem;
+  right: 10.1300000000001rem;
+  top: 32.5rem;
+  width: 5.62rem;
+  height: 7.37rem;
+  /* background: aqua; */
+}
+.luckdiv-mobile{
+  width: 100% !important;
+  height: 100% !important;
 }
 .draw-btn {
   top: 42.4rem;
