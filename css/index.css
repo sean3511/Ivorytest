@@ -2243,6 +2243,7 @@ a {
   height: 2rem;
   top: 5rem;
   right: 4rem;
+  z-index: 10000;
 }
 
 .popup-friend {
