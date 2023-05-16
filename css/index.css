@@ -1733,10 +1733,11 @@ a {
 }
   .p1-preBtn {
     top: 13rem;
-    width: 6.84rem;
-    height: 1.48rem;
+    width: 14.84rem;
+    height: 3.4800000000000004rem;
     background-size: 100% 100%;
-    left: 6.1rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .point::before{
     display: none;
@@ -2092,26 +2093,29 @@ a {
     top: 46.5rem;
     right: 2.5rem;
 }
-.shareFB {
-  display: none;
-  width: 1.48rem;
-  height: 0.5rem;
-  right: 7rem;
-  top: 41.8em;
+.shareFB { 
+  background: url(../images/fb-share.png) no-repeat;
+  background-size: 100% 100%;
+  width: 3.5rem;
+  height: 1.2rem;
+  right: 12.4rem;
+  top: 44.8em;
 }
 .myCard {
-  display: none;
-    width: 1.48rem;
-    height: 0.5rem;
-    right: 5.2rem;
-    top: 41.8em;
+  background: url(../images/my-card.png) no-repeat;
+    background-size: 100% 100%;
+    width: 3.5rem;
+    height: 1.2rem;
+    right: 7.9rem;
+    top: 44.8em;
 }
 .allCard{
-  display: none;
-  width: 1.48rem;
-  height: 0.5rem;
-  right: 3.4rem;
-  top: 41.8em;
+  background: url(../images/car-detail.png) no-repeat;
+  background-size: 100% 100%;
+  width: 3.5rem;
+  height: 1.2rem;
+  left: 12.4rem;
+  top: 44.8em;
 }
 .google-store {
   width: 1.75rem;
