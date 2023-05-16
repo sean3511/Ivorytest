@@ -1852,9 +1852,6 @@ a {
     right: 10rem;
     top: 32.3rem;
 }
-.float-right{
-  display: none !important;
-}
 .luckyDiv{
   right: 10.1300000000001rem;
   top: 32.5rem;
@@ -2206,9 +2203,9 @@ a {
   height: 2.8rem;
 }
 .float-right {
-  display: none;
+  /* display: none; */
   position: fixed;
-  top: 50%;
+  top: 40%;
   right: 0;
   margin-top: -3.53rem;
   z-index: 1000;
@@ -2331,5 +2328,56 @@ a {
   width: 5.62rem;
   height: 7.37rem;
 }
+.right-card1 {
+  width: 10.32rem;
+  height: 28.28rem;
+  background: url("../images/float-right1.png") no-repeat;
+  background-size: 100% 100%;
+}
+.right-card2 {
+  width: 10.32rem;
+  height: 28.28rem;
+  background: url("../images/float-right2.png") no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.right-card3 {
+  width: 10.32rem;
+  height: 28.28rem;
+  background: url("../images/float-right3.png") no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
 
+.float-right-google-btn {
+    top: 13rem;
+    right: 2rem;
+    width: 6.2rem;
+    height: 2.2rem;
+}
+.float-right-apple-btn {
+  position: absolute;
+  top: 15.2rem;
+  right: 2rem;
+  width: 6.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+}
+.float-right-assoc-btn {
+  position: absolute;
+  top: 17.4rem;
+  right: 2rem;
+  width: 6.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+}
+.float-right-award-top {
+  position: absolute;
+  top: 22.6rem;
+  right: 4rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  /* background-color: aqua; */
+}
 }
