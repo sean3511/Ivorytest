@@ -2066,8 +2066,10 @@ a {
     text-align: center;
 }
 .bottomDiv {
-  top: 96.3rem;
+      top: 96.3rem;
 }
+.reachDiv{
+  display: none;
 }
 .feature-swiper {
   position: absolute;
