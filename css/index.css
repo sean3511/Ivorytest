@@ -1579,7 +1579,7 @@ a {
 .popup-preBtn-point::before {
   background: url("../images/point.png") no-repeat;
   background-size: 100% 100%;
-  width: 0.3rem;
+  width: rem;
   height: 0.3rem;
   content: "";
   position: absolute;
@@ -2593,5 +2593,75 @@ a {
   width: 100% !important;
   height: 100% !important;
   transform: scale(1) !important;
+}
+
+.point::before {
+  content: "";
+  display: block;
+  background: url("../images/point.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  right: 0.7rem;
+  top: 0.2rem;
+  z-index: 3;
+}
+.finger::after {
+  content: "";
+  display: block;
+  background: url("../images/finger.png") no-repeat;
+  background-size: 100% 100%;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  right: 0.4rem;
+  bottom: 0.15rem;
+  z-index: 3;
+}
+
+.endBtn-finger::after {
+  background: url("../images/finger.png") no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.endBtn-point::before {
+  background: url("../images/point.png") no-repeat;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.like-point::before {
+  background: url("../images/point.png") no-repeat;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+.like-finger::after {
+  background: url("../images/finger.png") no-repeat;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+.popup-preBtn-point::before {
+  background: url("../images/point.png") no-repeat;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.popup-preBtn-finger::after {
+  background: url("../images/finger.png") no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.store-btn-point::before {
+  background: url("../images/point.png") no-repeat;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.store-btn-finger::after {
+  background: url("../images/finger.png") no-repeat;
+  width: 1.05rem;
+  height: 1.05rem;
 }
 }
