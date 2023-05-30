@@ -219,26 +219,29 @@ Array.prototype.findIndex || (Array.prototype.findIndex = function(e) {
                         }]
                     }
                 }));
-                e.myLucky = new LuckyCanvas.SlotMachine({
-                    divElement: document.querySelector("#my-lucky"),
-                    dpr: 2
-                }, {
-                    width: "2.25rem",
-                    height: "2.95rem",
-                    slots: [{
-                        order: e.prizesOrder,
-                        direction: -1
-                    }],
-                    prizes: o,
-                    defaultConfig: {
-                        rowSpacing: "0.72rem",
-                        speed: 25
-                    },
-                    end: function(o) {
-                        n.hideFullShade(), e.prizesName = o.imgs[0].name
-                    }
-                })
-            },
+                // width: 5.62rem;
+                // height: 7.37rem;
+                    e.myLucky = new LuckyCanvas.SlotMachine({
+                        divElement: document.querySelector("#my-lucky"),
+                        dpr: 2
+                    }, {
+                        width: "2.25rem",
+                        height: "2.95rem",
+    
+                        slots: [{
+                            order: e.prizesOrder,
+                            direction: -1
+                        }],
+                        prizes: o,
+                        defaultConfig: {
+                            rowSpacing: "0.72rem",
+                            speed: 25
+                        },
+                        end: function(o) {
+                            n.hideFullShade(), e.prizesName = o.imgs[0].name
+                        }
+                    })
+                 },
             playGame: function(n) {
                 e.myLucky.play()
             },

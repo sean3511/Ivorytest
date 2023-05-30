@@ -1402,9 +1402,9 @@ a {
   left: 0;
 }
 
-.animation-btn {
+/* .animation-btn {
   animation: btn 2s linear infinite;
-}
+} */
 
 .video {
   background: url("../images/video.png") no-repeat;
@@ -2588,5 +2588,10 @@ a {
   height: 1.56rem;
   bottom: 1.6rem;
   left: 3.1rem;
+}
+.luckyDiv .luckdiv-mobile canvas{
+  width: 100% !important;
+  height: 100% !important;
+  transform: scale(1) !important;
 }
 }
