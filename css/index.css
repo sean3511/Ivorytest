@@ -2624,55 +2624,51 @@ a {
 }
 
 .endBtn-finger::after {
-  background: url("../images/finger.png") no-repeat;
-  width: 70px;
-  height: 71px;
-  bottom:-30px;
-  transform: scale(0.5);
+  /* background: url("../images/finger.png") no-repeat; */
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: -1rem;
 }
 .endBtn-point::before {
-  background: url("../images/point.png") no-repeat;
-  width: 28px;
-  height: 28px;
+  /* background: url("../images/point.png") no-repeat; */
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .like-point::before {
-  background: url("../images/point.png") no-repeat;
-  width: 28px;
-  height: 28px;
+  /* background: url("../images/point.png") no-repeat; */
+  width: 0.3rem;
+  height: 0.3rem;
 }
 
 .like-finger::after {
-  background: url("../images/finger.png") no-repeat;
-  width: 70px;
-  height: 71px;
-  bottom:-30px;
-  transform: scale(0.5);
+  /* background: url("../images/finger.png") no-repeat; */
+  width: 0.6rem;
+  height: 0.6rem;
+  bottom: -0.5rem;
 }
 
 .popup-preBtn-point::before {
-  background: url("../images/point.png") no-repeat;
-  width: 28px;
-  height: 28px;
+  /* background: url("../images/point.png") no-repeat; */
+  width: 0.6rem;
+  height: 0.6rem;
 }
 .popup-preBtn-finger::after {
-  background: url("../images/finger.png") no-repeat;
-  width: 70px;
-  height: 71px;
-  bottom:-30px;
-  transform: scale(0.5);
+  /* background: url("../images/finger.png") no-repeat; */
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: -1rem;
 }
 
 .store-btn-point::before {
-  background: url("../images/point.png") no-repeat;
-  width: 28px;
-  height: 28px;
+  /* background: url("../images/point.png") no-repeat; */
+  width: 0.6rem;
+  height: 0.6rem;
 }
 .store-btn-finger::after {
-  background: url("../images/finger.png") no-repeat;
-  width: 70px;
-  height: 71px;
-  bottom:-30px;
-  transform: scale(0.5);
+  /* background: url("../images/finger.png") no-repeat; */
+  width: 1.05rem;
+  height: 1.05rem;
+  bottom: -0.6rem;
 }
 }
