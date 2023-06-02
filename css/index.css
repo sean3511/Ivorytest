@@ -2087,12 +2087,6 @@ a {
 .menu-btn{
   display: none;
 }
-.activity-desc-btn {
-  width: 1.2rem;
-    height: 0.4rem;
-    top: 46.5rem;
-    right: 2.5rem;
-}
 .shareFB { 
   background: url(../images/fb-share.png) no-repeat;
   background-size: 100% 100%;
@@ -2728,17 +2722,21 @@ a {
   background-color: aqua;
   width: 1.2rem;
   height: 0.4rem;
+  right: 2rem;
 }
 
 .activity-desc-btn {
   background-color: aqua;
   width: 1.2rem;
   height: 0.4rem;
+  top: 46.5rem;
+  right: 2rem;
 }
 
 .conclude-desc-btn {
   background-color: aqua;
   width: 1.2rem;
   height: 0.4rem;
+  right: 2rem;
 }
 }
