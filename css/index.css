@@ -2724,4 +2724,21 @@ a {
   top: 1.35rem;
   right: -0rem;
 }
+.draw-desc-btn {
+  background-color: aqua;
+  width: 1.2rem;
+  height: 0.4rem;
+}
+
+.activity-desc-btn {
+  background-color: aqua;
+  width: 1.2rem;
+  height: 0.4rem;
+}
+
+.conclude-desc-btn {
+  background-color: aqua;
+  width: 1.2rem;
+  height: 0.4rem;
+}
 }
